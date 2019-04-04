@@ -89,7 +89,138 @@
         </tbody>
     </table> -->
 
-    <!-- POKEMON CHART EXERCISE END -->
+        <!-- POKEMON CHART EXERCISE END -->
+
+        <!-- FORMS -->
+
+    
+    <!-- <h1>Login</h1> -->
+
+    <!-- action - where the form sends data to -->
+    <!-- method - what HTTP method (get/post) -->
+    
+
+
+    <!-- <form action="http://www.wikipedia.org">
+
+        <label for="username">Email:</label>
+        <input id="username" type="email" placeholder="username" required>
+
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="password" required>
+        <input type="submit">
+
+    </form> -->
+
+        <!-- FORMS END -->
+
+        <!-- INPUTS DEMO -->
+
+    <!-- <p>Do you prefer Cats or Dogs?</p>
+
+    <form action="">
+        <label for="dogs">Dogs: </label>
+        <input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+        <label for="cats">Cats: </label>
+        <input name="petChoice" id="cats" type="radio" value="CATS">  
+
+        <p>What's your favorite color?</p>
+
+        <select name="color" id="">
+            <option value="Red">Red</option>
+            <option value="Orange">Orange</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+
+
+        <textarea name="paragraph" id="" cols="10" rows="10"></textarea>
+        
+        <button>Go!</button>
+    </form>  -->
+
+        <!-- INPUTS DEMO END -->
+
+
+        <!-- FORMS EXERCISE -->
+    <h1>Register</h1>
+
+    <form action="">
+
+        <!--Name-->
+        <label for="first">First Name:</label>
+        <input id="first" name="first" type="text" placeholder="Raul" required>
+
+        <label for="last">Last Name:</label>
+        <input id="last" name="last" type="text" placeholder="Menjivar" required>
+
+        <div>
+
+            <!--Gender-->
+            <label for="male">Male</label>
+            <input name="genderChoice" id="male" type="radio" value="male">
+
+            <label for="female">Female</label>
+            <input name="genderChoice" id="female" type="radio"    value="female">
+
+            <label for="other">Other</label>
+            <input name="genderChoice" id="other" type="radio" value="other">
+
+        </div>
+
+        <div>
+
+            <!--Email & Password-->
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Email" required>
+
+            <label for="password">Password:</label>
+            <input id="password" type="password" pattern=".{5,10}" placeholder="Password" required title="Password must be between 5 and 10 characters">
+
+        </div>
+
+        <div>
+
+            <!--Birthday-->
+            <label for="birthday">Birthday:</label>
+            <select name="month" id="birthday">
+                <option value="Month">Month</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+            </select>
+            <select name="day" id="birthday">
+                <option value="Day">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <select name="year" id="birthday">
+                <option value="year">Year</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+            </select>
+
+        </div>
+
+        <div>
+
+            <!--Terms & Conditions-->
+            <p>I agree to the terms and conditions <input type="checkbox" required></p>
+
+        </div>
+
+        <div>
+
+            <!--Submit Button-->
+            <button>Submit</button>
+
+        </div>
+
+    </form>
 
 </body>
 </html>
