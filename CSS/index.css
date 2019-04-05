@@ -1,11 +1,21 @@
 h1 {
     color: #FF8000;
+    border: 5px dashed purple;
 }
 
 li {
-    color: green;
+    color: rgb(240, 0, 100);
 }
 
 h4 {
     color: purple;
+    background: rgb(255, 100, 80);
+}
+
+h5 {
+    color: rgba(200, 34, 193, 0.2);
+}
+
+body {
+    background: pink;
 }
