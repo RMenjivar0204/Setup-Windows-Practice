@@ -1,0 +1,19 @@
+body {
+    color: purple;
+}
+
+ul {
+    color: green;
+}
+
+li {
+    color: orange;
+}
+
+.highlight {
+    color: yellow;
+}
+
+#special {
+    color:pink;
+}
