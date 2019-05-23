@@ -1,13 +1,14 @@
 var request = require("request");
-request('http://www.google.com', function(error, response, body){
-    if(error){
-        console.log("SOMETHING WENT WRONG");
-        console.log(error);
-    }
-    else{
-        if(response.statusCode == 200){
-            //Things worked!
-            console.log(body);
-        }
+
+request('https://jsonplaceholder.typicode.com/users/1', (error, response, body) => {
+        if(!error && response.statusCode == 200){
+            const parsedData = JSON.parse(body);
+            console.log(`${parsedData.name} lives in ${parsedData.address.city}`);
     }
 });
+
+// Movie API General Search
+// http://www.omdbapi.com/?s=guardians+of+the+galaxy&apikey=thewdb
+
+// Movie API Search with Movie ID
+// http://www.omdbapi.com/?i=tt3896198&apikey=thewdb
