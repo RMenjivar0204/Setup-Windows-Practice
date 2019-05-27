@@ -44,7 +44,7 @@ app.get("/campgrounds", function(req, res){
     // Get all compounds from DB
     Campground.find({}, function(err, allCampgrounds){
         if(err){
-            conaole.log(err);
+            console.log(err);
         } else {
             res.render("index", {campgrounds: allCampgrounds});
         }
