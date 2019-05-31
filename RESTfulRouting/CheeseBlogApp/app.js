@@ -42,7 +42,7 @@ app.get("/blogs", function(req, res){
 
 // NEW ROUTE
 app.get("/blogs/new", function(req, res){
-
+    res.render("new");
 });
 
 // CREATE ROUTE 
@@ -67,7 +67,7 @@ app.put("/blogs/:id", function(req, res){
 
 // DELETE ROUTE
 app.delete("/blogs/:id", function(req, res){
-    
+
 });
 
 
