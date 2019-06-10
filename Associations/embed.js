@@ -62,8 +62,8 @@ User.findOne({name: "Hermione Granger"}, function(err, user){
         // console.log(err);
     } else {
         user.posts.push({
-            title: "3 Things I Really Hate",
-            content: "Pizza. Pie. Sky."
+            title: "Return to Code",
+            content: "I've been slacking!"
         });
         user.save(function(err, user){
             if(err){
