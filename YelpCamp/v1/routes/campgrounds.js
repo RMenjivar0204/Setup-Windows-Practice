@@ -58,6 +58,10 @@ router.get("/:id", function(req, res){
     });
 });
 
+// EDIT CAMPGROUND ROUTE
+
+// UPDATE CAMPGROUND ROUTE
+
 
 function isLoggedIn(req, res, next){
     if(req.isAuthenticated()){
